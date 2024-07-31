@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    /* background-color: #548687; */
+    text-align: center;
+    height: 100vh;
+    width:100vw;
+    background-color: black;
+    background-image: url(bg3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.container{
+    height:70vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+    
+    
+
+
+}
+h1{
+    color:white;
+    font-size: 400%;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.3vmin;
+    border:0.1px solid rgb(18, 18, 18);
+    border-radius: 20px;
+   
+
+
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 10vmin;
+    color:white;
+    
+    background-image: url('bg1.jpg');
+    background-size: 60vmin 60vmin; /* Adjust based on the size of the image and the grid */
+}
+
+
+#box-0 { background-position: 0 0; }
+#box-1 { background-position: -20vmin 0; }
+#box-2 { background-position: -40vmin 0; }
+#box-3 { background-position: 0 -20vmin; }
+#box-4 { background-position: -20vmin -20vmin; }
+#box-5 { background-position: -40vmin -20vmin; }
+#box-6 { background-position: 0 -40vmin; }
+#box-7 { background-position: -20vmin -40vmin; }
+#box-8 { background-position: -40vmin -40vmin; }
+
+
+#reset-btn{
+
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius:1rem;
+    box-shadow: 3px 3px 2px white;
+
+}
+
+#new-btn{
+    
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius:1rem;
+    border: none;
+    box-shadow: 3px 3px 2px white;
+}
+#msg{
+    color:#ffffcf;
+    font-size: 8vmin;
+
+
+}
+.msg-container{
+ height:30vmin;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 4rem;
+
+
+
+}
+.hide{
+    display: none;
+}
